@@ -235,3 +235,57 @@ footer .nav-link {
         justify-content: center;
     }
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 50px;
+    gap: 32px;
+    padding: 48px;
+    margin: 32px auto;
+    width: 1140px;
+}
+.card__title{
+    font-size: 48px;
+}
+.card__subtitle{
+    font-size: 36px;
+}
+.description{
+    display: flex;
+    gap: 32px;
+}
+.description .card__left{
+    width: 506px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.card__left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card__right{
+    width: 506px;
+}
+.card__right .title{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #121723;
+}
+.card__right p{
+    font-size: 20px;
+    padding: 24px 0;
+}
+.card__right .space{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #121723;
+}
