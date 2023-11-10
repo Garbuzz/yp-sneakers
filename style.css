@@ -52,9 +52,11 @@ main {
     background: #F1F1F1;
     min-height: 100vh;
 }
-.main__content{
+
+.main__content {
     min-height: 100vh;
 }
+
 /* стили для хедера(шапки) сайта */
 header {
     display: flex;
@@ -128,10 +130,12 @@ h1 {
     border-radius: 12px;
     background: white;
 }
-.sneakers a .sneaker{
+
+.sneakers a .sneaker {
     color: black;
     transition: 0.2s;
 }
+
 .sneaker-image {
     width: 100%;
 }
@@ -194,12 +198,13 @@ footer .nav-link {
     font-weight: 700;
     margin: 24px 0;
 }
-.sneakers a:hover .sneaker{
+
+.sneakers a:hover .sneaker {
     transform: translateY(-10px);
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -210,49 +215,60 @@ footer .nav-link {
     width: 1140px;
     /* min-height: 100vh; */
 }
-.card__title{
+
+.card__title {
     font-size: 48px;
 }
-.card__subtitle{
+
+.card__subtitle {
     font-size: 36px;
 }
-.description{
+
+.description {
     display: flex;
     gap: 32px;
 }
-.description .card__left{
+
+.description .card__left {
     width: 506px;
     line-height: 28px;
     font-weight: 400;
 }
-.card__left{
+
+.card__left {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-.text{
+
+.text {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-.card__right{
+
+.card__right {
     width: 506px;
 }
-.card__right .title{
+
+.card__right .title {
     font-size: 30px;
     font-weight: 400;
     padding: 0 0 20px;
     border-bottom: solid 1px #121723;
 }
-.card__right p{
+
+.card__right p {
     font-size: 20px;
     padding: 24px 0;
 }
-.card__right .space{
+
+.card__right .space {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px #121723;
 }
+
 @media screen and (max-width:450px) {
     .header-container {
         flex-direction: column;
@@ -291,7 +307,8 @@ footer .nav-link {
     .sneakers {
         justify-content: center;
     }
-    .card{
+
+    .card {
         justify-content: center;
         align-items: center;
         padding: 24px;
@@ -299,39 +316,49 @@ footer .nav-link {
         border-radius: 12px;
         margin: 32px 16px;
     }
-    .card img{
+
+    .card img {
         width: 100%;
     }
-    .text{
+
+    .text {
         width: 100%;
     }
-    .description{
+
+    .description {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .card__title{
+
+    .card__title {
         width: 100%;
         font-size: 32px;
     }
-    .card__subtitle{
+
+    .card__subtitle {
         width: 100%;
         font-size: 20px;
     }
-    .description .card__left{
+
+    .description .card__left {
         width: 100%;
     }
-    .card__right{
+
+    .card__right {
         width: 100%;
     }
-    .card__right .title{
+
+    .card__right .title {
         font-size: 20px;
     }
-    .space p{
+
+    .space p {
         font-size: 16px;
     }
-    .card__left p{
+
+    .card__left p {
         font-size: 16px;
     }
 }
